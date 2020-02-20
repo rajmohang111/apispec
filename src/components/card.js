@@ -9,6 +9,10 @@ import Typography from '@material-ui/core/Typography';
 const useStyles = makeStyles({
   root: {
     width: '100%',
+    transition: 'box-shadow .3s',
+    '&:hover': {
+      boxShadow: '0 0 11px rgba(33,33,33,.2)'
+    }
   },
   bullet: {
     display: 'inline-block',

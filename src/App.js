@@ -19,9 +19,9 @@ function App() {
     <div className="App">
       <Header />
       <div className="main-container">
-        <section className="image-container">
+        <section className="card-container">
           {apiSpec && apiSpec.map(spec => (
-            <div className="image-item">
+            <div className="card-item">
               <DocumentCard spec={spec} />
             </div>
           ))}
