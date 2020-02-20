@@ -1,0 +1,80 @@
+{
+    "api_spec": [
+        {
+            "icon": "//developer.static.autodesk.com/forgeunified/releases/current/1.0.0.20200109065713/images/api-icons/icon-oauth.svg",
+            "title": "Authentication",
+            "description": "Generate tokens based on the OAuth 2.0 standard to authenticate requests made to Forge APIs and SDKs.",
+            "links": [
+                {
+                    "title": "intro",
+                    "link": "https://forge.autodesk.com/en/docs/oauth/v2/overview/"
+                },
+                {
+                    "title": "guide",
+                    "link": "https://forge.autodesk.com/en/docs/oauth/v2/overview/"
+                },
+                {
+                    "title": "api_ref",
+                    "link": "https://forge.autodesk.com/en/docs/oauth/v2/overview/"
+                }
+            ]
+        },
+        {
+            "icon": "//developer.static.autodesk.com/forgeunified/releases/current/1.0.0.20200109065713/images/api-icons/icon-oauth.svg",
+            "title": "Authentication",
+            "description": "Generate tokens based on the OAuth 2.0 standard to authenticate requests made to Forge APIs and SDKs.",
+            "links": [
+                {
+                    "title": "intro",
+                    "link": "https://forge.autodesk.com/en/docs/oauth/v2/overview/"
+                },
+                {
+                    "title": "guide",
+                    "link": "https://forge.autodesk.com/en/docs/oauth/v2/overview/"
+                },
+                {
+                    "title": "api_ref",
+                    "link": "https://forge.autodesk.com/en/docs/oauth/v2/overview/"
+                }
+            ]
+        },
+        {
+            "icon": "//developer.static.autodesk.com/forgeunified/releases/current/1.0.0.20200109065713/images/api-icons/icon-oauth.svg",
+            "title": "Authentication",
+            "description": "Generate tokens based on the OAuth 2.0 standard to authenticate requests made to Forge APIs and SDKs.",
+            "links": [
+                {
+                    "title": "intro",
+                    "link": "https://forge.autodesk.com/en/docs/oauth/v2/overview/"
+                },
+                {
+                    "title": "guide",
+                    "link": "https://forge.autodesk.com/en/docs/oauth/v2/overview/"
+                },
+                {
+                    "title": "api_ref",
+                    "link": "https://forge.autodesk.com/en/docs/oauth/v2/overview/"
+                }
+            ]
+        },
+        {
+            "icon": "//developer.static.autodesk.com/forgeunified/releases/current/1.0.0.20200109065713/images/api-icons/icon-oauth.svg",
+            "title": "Authentication",
+            "description": "Generate tokens based on the OAuth 2.0 standard to authenticate requests made to Forge APIs and SDKs.",
+            "links": [
+                {
+                    "title": "intro",
+                    "link": "https://forge.autodesk.com/en/docs/oauth/v2/overview/"
+                },
+                {
+                    "title": "guide",
+                    "link": "https://forge.autodesk.com/en/docs/oauth/v2/overview/"
+                },
+                {
+                    "title": "api_ref",
+                    "link": "https://forge.autodesk.com/en/docs/oauth/v2/overview/"
+                }
+            ]
+        }
+    ]
+}
