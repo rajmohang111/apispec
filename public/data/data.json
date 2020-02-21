@@ -7,15 +7,15 @@
             "links": [
                 {
                     "title": "intro",
-                    "link": "https://forge.autodesk.com/en/docs/oauth/v2/overview/"
+                    "link": "en/api/auth/intro"
                 },
                 {
                     "title": "guide",
-                    "link": "https://forge.autodesk.com/en/docs/oauth/v2/overview/"
+                    "link": "en/api/auth/guide"
                 },
                 {
-                    "title": "api_ref",
-                    "link": "https://forge.autodesk.com/en/docs/oauth/v2/overview/"
+                    "title": "API Reference",
+                    "link": "en/api/auth/reference"
                 }
             ]
         },
@@ -26,15 +26,15 @@
             "links": [
                 {
                     "title": "intro",
-                    "link": "https://forge.autodesk.com/en/docs/oauth/v2/overview/"
+                    "link": "en/api/auth/intro"
                 },
                 {
                     "title": "guide",
-                    "link": "https://forge.autodesk.com/en/docs/oauth/v2/overview/"
+                    "link": "en/api/auth/guide"
                 },
                 {
-                    "title": "api_ref",
-                    "link": "https://forge.autodesk.com/en/docs/oauth/v2/overview/"
+                    "title": "API Reference",
+                    "link": "en/api/auth/reference"
                 }
             ]
         },
@@ -45,15 +45,15 @@
             "links": [
                 {
                     "title": "intro",
-                    "link": "https://forge.autodesk.com/en/docs/oauth/v2/overview/"
+                    "link": "en/api/auth/intro"
                 },
                 {
                     "title": "guide",
-                    "link": "https://forge.autodesk.com/en/docs/oauth/v2/overview/"
+                    "link": "en/api/auth/guide"
                 },
                 {
-                    "title": "api_ref",
-                    "link": "https://forge.autodesk.com/en/docs/oauth/v2/overview/"
+                    "title": "API Reference",
+                    "link": "en/api/auth/reference"
                 }
             ]
         },
@@ -64,15 +64,15 @@
             "links": [
                 {
                     "title": "intro",
-                    "link": "https://forge.autodesk.com/en/docs/oauth/v2/overview/"
+                    "link": "en/api/auth/intro"
                 },
                 {
                     "title": "guide",
-                    "link": "https://forge.autodesk.com/en/docs/oauth/v2/overview/"
+                    "link": "en/api/auth/guide"
                 },
                 {
-                    "title": "api_ref",
-                    "link": "https://forge.autodesk.com/en/docs/oauth/v2/overview/"
+                    "title": "API Reference",
+                    "link": "en/api/auth/reference"
                 }
             ]
         }

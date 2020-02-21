@@ -1,4 +1,6 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
@@ -29,23 +31,26 @@ const useStyles = makeStyles({
 
 export default function DocumentCard(props) {
   const classes = useStyles();
-  const { spec } = props;
+  const { spec, match } = props;
 
   return (
     <Card className={classes.root}>
-      <CardContent>
-        <Typography className={classes.title} color="textSecondary" gutterBottom>
-          {spec.title}
-        </Typography>
-        <Typography variant="body2" component="p">
-          {spec.description}
-        </Typography>
-      </CardContent>
+      {match && <h2>{match.params.api}</h2>}
+      {spec &&
+        <CardContent>
+          <Typography className={classes.title} color="textSecondary" gutterBottom>
+            {spec.title}
+          </Typography>
+          <Typography variant="body2" component="p">
+            {spec.description}
+          </Typography>
+        </CardContent>}
       {spec && spec.links.map(links => (
         <CardActions>
-          <Button size="small">{links.title}</Button>
+          <Button size="small"><Link to={links.link}>{links.title}</Link></Button>
         </CardActions>
       ))}
     </Card>
+
   );
 }

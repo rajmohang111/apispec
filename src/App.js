@@ -1,7 +1,11 @@
 import React, { useState, useEffect } from "react";
+import { BrowserRouter as Router, Route, Redirect  } from 'react-router-dom';
+
 import './App.css';
 import Header from './components/header';
 import DocumentCard from './components/card';
+import Home from './components/home';
+
 import getAPISpecs from './services/api';
 
 function App() {
@@ -18,15 +22,13 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <div className="main-container">
-        <section className="card-container">
-          {apiSpec && apiSpec.map(spec => (
-            <div className="card-item">
-              <DocumentCard spec={spec} />
-            </div>
-          ))}
-        </section>
-      </div>
+         <Router>
+        <Redirect exact from="/" to="/developer/documentation" />
+        <Route path="/developer/documentation" exact  component={Home} />
+        <Route path="/developer/en/api/:api/guide" component={DocumentCard} />
+        <Route path="/developer/en/api/:api/intro" component={DocumentCard} />
+        <Route path="/developer/en/api/:api/reference" component={DocumentCard} />
+      </Router>
     </div>
   );
 }
